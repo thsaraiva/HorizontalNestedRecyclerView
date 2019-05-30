@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:minWidth="200dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/movie_title"
+        android:text="title"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        tools:text="Titanic"/>
+
+    <TextView
+        android:id="@+id/movie_directors"
+        android:text="subtitle"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        tools:text="(James Cameron)"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:background="@android:color/holo_blue_light">
+
+        <LinearLayout
+            android:id="@+id/cast_container"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="text 1"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="48dp"/>
+
+            <Button
+                android:text="text 2"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="48dp"/>
+
+            <Button
+                android:text="text 3"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="48dp"/>
+
+            <Button
+                android:text="text 4"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="48dp"/>
+
+            <Button
+                android:text="text 5"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="48dp"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
